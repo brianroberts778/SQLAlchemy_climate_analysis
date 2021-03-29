@@ -9,7 +9,7 @@ from flask import Flask, jsonify
 #####################################################
 # Database Setup
 #####################################################
-engine = create_engine("sqlite:////Users/brianroberts1/Documents/GitHub/sqlalchemy_challenge/Resources_hawaii.sqlite")
+engine = create_engine("sqlite:////Users/brianroberts1/Documents/GitHub/SQLAlchemy_climate_analysis/Resources_hawaii.sqlite")
 
 # Reflect and existing database into a new model
 Base = automap_base()
